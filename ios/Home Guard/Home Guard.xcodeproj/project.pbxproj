@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49082F831E2AB2F200005E35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49082F821E2AB2F100005E35 /* AppDelegate.swift */; };
+		49082F851E2AB2F200005E35 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49082F841E2AB2F200005E35 /* GameScene.sks */; };
+		49082F871E2AB2F200005E35 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49082F861E2AB2F200005E35 /* Actions.sks */; };
+		49082F891E2AB2F200005E35 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49082F881E2AB2F200005E35 /* GameScene.swift */; };
+		49082F8B1E2AB2F200005E35 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49082F8A1E2AB2F200005E35 /* GameViewController.swift */; };
+		49082F8E1E2AB2F200005E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49082F8C1E2AB2F200005E35 /* Main.storyboard */; };
+		49082F901E2AB2F200005E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49082F8F1E2AB2F200005E35 /* Assets.xcassets */; };
+		49082F931E2AB2F200005E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49082F911E2AB2F200005E35 /* LaunchScreen.storyboard */; };
+		49082F9E1E2AB2F200005E35 /* Home_GuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49082F9D1E2AB2F200005E35 /* Home_GuardTests.swift */; };
+		49082FA91E2AB2F200005E35 /* Home_GuardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49082FA81E2AB2F200005E35 /* Home_GuardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49082F9A1E2AB2F200005E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49082F771E2AB2F100005E35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49082F7E1E2AB2F100005E35;
+			remoteInfo = "Home Guard";
+		};
+		49082FA51E2AB2F200005E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49082F771E2AB2F100005E35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49082F7E1E2AB2F100005E35;
+			remoteInfo = "Home Guard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49082F7F1E2AB2F100005E35 /* Home Guard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Guard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49082F821E2AB2F100005E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49082F841E2AB2F200005E35 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		49082F861E2AB2F200005E35 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		49082F881E2AB2F200005E35 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		49082F8A1E2AB2F200005E35 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		49082F8D1E2AB2F200005E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49082F8F1E2AB2F200005E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49082F921E2AB2F200005E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49082F941E2AB2F200005E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49082F991E2AB2F200005E35 /* Home GuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home GuardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49082F9D1E2AB2F200005E35 /* Home_GuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_GuardTests.swift; sourceTree = "<group>"; };
+		49082F9F1E2AB2F200005E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49082FA41E2AB2F200005E35 /* Home GuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home GuardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49082FA81E2AB2F200005E35 /* Home_GuardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_GuardUITests.swift; sourceTree = "<group>"; };
+		49082FAA1E2AB2F200005E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49082F7C1E2AB2F100005E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49082F961E2AB2F200005E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49082FA11E2AB2F200005E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49082F761E2AB2F100005E35 = {
+			isa = PBXGroup;
+			children = (
+				49082F811E2AB2F100005E35 /* Home Guard */,
+				49082F9C1E2AB2F200005E35 /* Home GuardTests */,
+				49082FA71E2AB2F200005E35 /* Home GuardUITests */,
+				49082F801E2AB2F100005E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49082F801E2AB2F100005E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49082F7F1E2AB2F100005E35 /* Home Guard.app */,
+				49082F991E2AB2F200005E35 /* Home GuardTests.xctest */,
+				49082FA41E2AB2F200005E35 /* Home GuardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49082F811E2AB2F100005E35 /* Home Guard */ = {
+			isa = PBXGroup;
+			children = (
+				49082F821E2AB2F100005E35 /* AppDelegate.swift */,
+				49082F841E2AB2F200005E35 /* GameScene.sks */,
+				49082F861E2AB2F200005E35 /* Actions.sks */,
+				49082F881E2AB2F200005E35 /* GameScene.swift */,
+				49082F8A1E2AB2F200005E35 /* GameViewController.swift */,
+				49082F8C1E2AB2F200005E35 /* Main.storyboard */,
+				49082F8F1E2AB2F200005E35 /* Assets.xcassets */,
+				49082F911E2AB2F200005E35 /* LaunchScreen.storyboard */,
+				49082F941E2AB2F200005E35 /* Info.plist */,
+			);
+			path = "Home Guard";
+			sourceTree = "<group>";
+		};
+		49082F9C1E2AB2F200005E35 /* Home GuardTests */ = {
+			isa = PBXGroup;
+			children = (
+				49082F9D1E2AB2F200005E35 /* Home_GuardTests.swift */,
+				49082F9F1E2AB2F200005E35 /* Info.plist */,
+			);
+			path = "Home GuardTests";
+			sourceTree = "<group>";
+		};
+		49082FA71E2AB2F200005E35 /* Home GuardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49082FA81E2AB2F200005E35 /* Home_GuardUITests.swift */,
+				49082FAA1E2AB2F200005E35 /* Info.plist */,
+			);
+			path = "Home GuardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49082F7E1E2AB2F100005E35 /* Home Guard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49082FAD1E2AB2F200005E35 /* Build configuration list for PBXNativeTarget "Home Guard" */;
+			buildPhases = (
+				49082F7B1E2AB2F100005E35 /* Sources */,
+				49082F7C1E2AB2F100005E35 /* Frameworks */,
+				49082F7D1E2AB2F100005E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Home Guard";
+			productName = "Home Guard";
+			productReference = 49082F7F1E2AB2F100005E35 /* Home Guard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49082F981E2AB2F200005E35 /* Home GuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49082FB01E2AB2F200005E35 /* Build configuration list for PBXNativeTarget "Home GuardTests" */;
+			buildPhases = (
+				49082F951E2AB2F200005E35 /* Sources */,
+				49082F961E2AB2F200005E35 /* Frameworks */,
+				49082F971E2AB2F200005E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49082F9B1E2AB2F200005E35 /* PBXTargetDependency */,
+			);
+			name = "Home GuardTests";
+			productName = "Home GuardTests";
+			productReference = 49082F991E2AB2F200005E35 /* Home GuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49082FA31E2AB2F200005E35 /* Home GuardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49082FB31E2AB2F200005E35 /* Build configuration list for PBXNativeTarget "Home GuardUITests" */;
+			buildPhases = (
+				49082FA01E2AB2F200005E35 /* Sources */,
+				49082FA11E2AB2F200005E35 /* Frameworks */,
+				49082FA21E2AB2F200005E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49082FA61E2AB2F200005E35 /* PBXTargetDependency */,
+			);
+			name = "Home GuardUITests";
+			productName = "Home GuardUITests";
+			productReference = 49082FA41E2AB2F200005E35 /* Home GuardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49082F771E2AB2F100005E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shaurya Srivastava";
+				TargetAttributes = {
+					49082F7E1E2AB2F100005E35 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CC9N3SP5VS;
+						ProvisioningStyle = Automatic;
+					};
+					49082F981E2AB2F200005E35 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CC9N3SP5VS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49082F7E1E2AB2F100005E35;
+					};
+					49082FA31E2AB2F200005E35 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CC9N3SP5VS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49082F7E1E2AB2F100005E35;
+					};
+				};
+			};
+			buildConfigurationList = 49082F7A1E2AB2F100005E35 /* Build configuration list for PBXProject "Home Guard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49082F761E2AB2F100005E35;
+			productRefGroup = 49082F801E2AB2F100005E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49082F7E1E2AB2F100005E35 /* Home Guard */,
+				49082F981E2AB2F200005E35 /* Home GuardTests */,
+				49082FA31E2AB2F200005E35 /* Home GuardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49082F7D1E2AB2F100005E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49082F8E1E2AB2F200005E35 /* Main.storyboard in Resources */,
+				49082F851E2AB2F200005E35 /* GameScene.sks in Resources */,
+				49082F901E2AB2F200005E35 /* Assets.xcassets in Resources */,
+				49082F931E2AB2F200005E35 /* LaunchScreen.storyboard in Resources */,
+				49082F871E2AB2F200005E35 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49082F971E2AB2F200005E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49082FA21E2AB2F200005E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49082F7B1E2AB2F100005E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49082F891E2AB2F200005E35 /* GameScene.swift in Sources */,
+				49082F8B1E2AB2F200005E35 /* GameViewController.swift in Sources */,
+				49082F831E2AB2F200005E35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49082F951E2AB2F200005E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49082F9E1E2AB2F200005E35 /* Home_GuardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49082FA01E2AB2F200005E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49082FA91E2AB2F200005E35 /* Home_GuardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49082F9B1E2AB2F200005E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49082F7E1E2AB2F100005E35 /* Home Guard */;
+			targetProxy = 49082F9A1E2AB2F200005E35 /* PBXContainerItemProxy */;
+		};
+		49082FA61E2AB2F200005E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49082F7E1E2AB2F100005E35 /* Home Guard */;
+			targetProxy = 49082FA51E2AB2F200005E35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49082F8C1E2AB2F200005E35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49082F8D1E2AB2F200005E35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49082F911E2AB2F200005E35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49082F921E2AB2F200005E35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49082FAB1E2AB2F200005E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49082FAC1E2AB2F200005E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49082FAE1E2AB2F200005E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Home Guard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shauryas.Home-Guard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49082FAF1E2AB2F200005E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Home Guard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shauryas.Home-Guard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49082FB11E2AB2F200005E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Home GuardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shauryas.Home-GuardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Guard.app/Home Guard";
+			};
+			name = Debug;
+		};
+		49082FB21E2AB2F200005E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Home GuardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shauryas.Home-GuardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Guard.app/Home Guard";
+			};
+			name = Release;
+		};
+		49082FB41E2AB2F200005E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Home GuardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shauryas.Home-GuardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Home Guard";
+			};
+			name = Debug;
+		};
+		49082FB51E2AB2F200005E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Home GuardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shauryas.Home-GuardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Home Guard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49082F7A1E2AB2F100005E35 /* Build configuration list for PBXProject "Home Guard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49082FAB1E2AB2F200005E35 /* Debug */,
+				49082FAC1E2AB2F200005E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49082FAD1E2AB2F200005E35 /* Build configuration list for PBXNativeTarget "Home Guard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49082FAE1E2AB2F200005E35 /* Debug */,
+				49082FAF1E2AB2F200005E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49082FB01E2AB2F200005E35 /* Build configuration list for PBXNativeTarget "Home GuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49082FB11E2AB2F200005E35 /* Debug */,
+				49082FB21E2AB2F200005E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49082FB31E2AB2F200005E35 /* Build configuration list for PBXNativeTarget "Home GuardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49082FB41E2AB2F200005E35 /* Debug */,
+				49082FB51E2AB2F200005E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49082F771E2AB2F100005E35 /* Project object */;
+}
